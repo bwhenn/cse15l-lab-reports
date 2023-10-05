@@ -1,1 +1,1 @@
-** This is bolded text **
+**This is bolded text**
