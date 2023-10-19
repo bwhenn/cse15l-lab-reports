@@ -4,13 +4,13 @@
 - `cd`
   1. No arguments
        When entering `cd` into the terminal from any location, the working directory will change to the home directory `/home`. This is the output recieved becasue the command is used to change the working directory, but no path was given. No error has occured because the terminal doesnt know which directory to change into, and so defaults to the home directory.
-![cd1](https://github.com/bwhenn/cse15l-lab-reports/blob/main/cd1.png)
+![cd1](./cd1.png)
   2. With directory path as an argument
     When entering `cd lecture1/` into the terminal from the home directory, `/home`, nothing is printed but the working directory is changed to the location specified by the path. Because the user can check the working directory using another command, no output is needed.
-  ![cd2](https://github.com/bwhenn/cse15l-lab-reports/blob/main/cd2.png)
+  ![cd2](./cd2.png)
   4. With file path as an argument
      When entering `cd lecture1/Hello.java` into the terminal, the error message "Not a directory" is printed. This is expected becasue working dicrectories cannot be files. Directories contain files and subdirectories.
-![cd3](https://github.com/bwhenn/cse15l-lab-reports/blob/main/cd3.png) 
+![cd3](./cd3.png) 
 - `ls`
   1. No arguments
      When entering `ls` into the terminal, a list of the files and directories within the working directory is printed out. We can use command line arguments to display additional overhead data about each file or to display hidden files as well. Because ls is short for list, we can expect this output from the command. For example, when you run this command in the "messages" directory, "en-us.txt", "es.mx.txt", and "zh.cn.txt" will be printed, as these are the three text files within the folder.
