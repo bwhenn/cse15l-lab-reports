@@ -3,10 +3,11 @@
 
 - `cd`
   1. No arguments
-       When entering `cd` into the terminal from any location, nothing is printed and the working dicectory is not changed. This is the output recieved becasue the command is used to change the working directory, but no path was given. No error has occured because the terminal doesnt know which directory to change into. 
-  2. With directory path as an argument
+       When entering `cd` into the terminal from any location, nothing is printed and the working dicectory is not changed. This is the output recieved becasue the command is used to change the working directory, but no path was given. No error has occured because the terminal doesnt know which directory to change into.
+![cat1](https://github.com/bwhenn/cse15l-lab-reports/blob/main/cd1.png)
+  3. With directory path as an argument
     When entering `cd lecture1/` into the terminal from the home directory, nothing is printed but the working directory is changed to the location specified by the path. Because the user can check the working directory using another command, no output is needed. 
-  3. With file path as an argument
+  4. With file path as an argument
      When entering `cd lecture1/Hello.java` into the terminal, the error message "Not a directory" is printed. This is expected becasue working dicrectories cannot be files. Directories contain files and subdirectories. 
 - `ls`
   1. No arguments
