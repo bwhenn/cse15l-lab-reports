@@ -1,3 +1,5 @@
+# Lab Report 2 
+
 ## Part 1
 #### StringServer Code 
 ```
@@ -39,13 +41,12 @@ class StringServer {
 }
 ```
 ![2a](./images/2a.png)
-In this image, the variables `showString` (string) and `count` (int) are initialized when the server is first started during creation of the new  `Handler` object in  `main`. When we update the URL with `<domain>/add-message?s=There`, the string "there" is concatenaed to `showString` before the incremented  `count` variable. Then, a new line character is concatenated so that the next string to be added using a call to . 
+In this image, the variables `showString` (string) and `count` (int) are initialized when the server is first started during creation of the new  `Handler` object in  `main`. When we update the URL with `<domain>/add-message?s=There`, the string "there" is concatenaed to `showString` before the incremented  `count` variable. Then, a new line character is concatenated so that the next string to be added will begin on a new line. When the page is reloaded with the updated URL, the method `handleRequest()` of the class `Handler` is called. 
 
 ![2b](./images/2b.png)
-
+In this image, 
 
 ## Part 2
 
 ## Part 3
-
-
+Something I learned this week is that the Java language can be used to set up a server that can be accesed from any computer's browser so long as it has an internet connection. Furthermore, there are methods such as `getPath()` and `getQuery()` to make URL parsing easier. Furthermore, I learned that servers can also be hosted locally and can then be accesed from a browser using localhost.
