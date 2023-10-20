@@ -38,8 +38,12 @@ class StringServer {
     }
 }
 ```
-
+![2a](./images/2a.png)
 In this image, the variables `showString` (string) and `count` (int) are initialized when the server is first started during creation of the new  `Handler` object in  `main`. When we update the URL with `<domain>/add-message?s=There`, the string "there" is concatenaed to `showString` before the incremented  `count` variable. Then, a new line character is concatenated so that the next string to be added using a call to . 
+
+![2b](./images/2b.png)
+
+
 ## Part 2
 
 ## Part 3
