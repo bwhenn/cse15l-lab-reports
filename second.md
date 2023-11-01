@@ -48,9 +48,9 @@ In this image, the `showString` variable has been updated once again as `handleR
 
 ## Part 2
 * The path to the private key for my SSH key for logging into  `ieng6`
-![2c](./images/2c.png)
+![2x](./images/2x.png)
 * The path to the public key for my SSH key for logging into  `ieng6`
-![2d](./images/2d.png)
+![2y](./images/2y.png)
 * A terminal interaction where I log into `ieng6` with my course-specific account without being asked for a password.
 ![2e](./images/2e.png)
 
